@@ -8,10 +8,6 @@
 #
 #  Syntax to run in foreground (to stop: ^C):
 #    docker run -it --rm -v $(pwd):/indir -v <outdir>:/outdir terraforming-filter
-#
-# Syntax to run detached (to stop: docker rm -f tf1):
-#    docker run -d --name tf1 -v $(pwd):/indir -v <outdir>:/outdir terraforming-filter
-
 
 FROM python:3.6-alpine3.7
 

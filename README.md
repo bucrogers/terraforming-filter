@@ -22,10 +22,6 @@ Required args shown below, optional args follow
 
     $ docker run -it --rm -v $(pwd):/indir -v <outdir>:/outdir terraforming-filter
 
- Syntax to run detached (to stop: docker rm -f tf1):
-
-    $ docker run -d --name tf1 -v $(pwd):/indir -v <outdir>:/outdir terraforming-filter
-
 ### Running without Docker
 
 Prerequisites - see Dockerfile for details
